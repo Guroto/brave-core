@@ -24,7 +24,8 @@ namespace {
 constexpr int kBraveTimerResolutionMicroseconds = 1000;
 
 bool ShouldRound() {
-  return base::FeatureList::IsEnabled(features::kBraveRoundTimeStamps);
+  // return base::FeatureList::IsEnabled(features::kBraveRoundTimeStamps);
+  return false;
 }
 
 }  // namespace
